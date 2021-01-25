@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color:seashell;
+}
+
+/* Main page */
+
+
+#horseboy {
+    /* Positioning */
+    float: left;
+  
+    /* Box-model */
+    width: 300px;
+    height: 450px;
+    margin: 0 20px 10px 10px;
+  }
+  /* END AB
+
+/* Nav Bar */
+.nav-link{
+    float: right;
+    padding-right: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar{
+ background-color :#3070b9e8;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 15px;  
+    border-radius: 10px;
+    
+  }
+  /* media query for nav background color change */
+  @media only screen and (max-width: 767px) {
+    .navbar-header {
+      background-color: #3070b9e8;
+    }
+  }
+  /* END Nav Bar */
+
+
+/* FOOTER */
+  .footer {
+    /* Positioning */
+    position: fixed;
+    bottom: 0;
+  
+    width: 100%;
+    height: 60px;
+  
+    /* Visual */
+    background-color: #666;
+  }
+  
+  .text-muted-footer {
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .two-toned-footer-color {
+    height: 6px;
+    padding-top: 3px;
+    background-color: #3070b9e8;
+    border-radius: 10px;
+  }
+  /* END FOOTER */
+  
+form {
+    background-color: lightgrey;
+    width: 700px;
+    border-width: 7px;
+    border-style: ridge ;
+    border-color: #3070b9e8;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+.contact-form {
+    display: inline;
+}
+
+/* Gallery */
+  
+.game-image {
+    max-width: 200px ;
+    height: 200px;
+    margin: 10px
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 870px) {
+    .responsive {
+      width: 33.33%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .responsive {
+      width: 49.99%;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .responsive {
+      width: 100%;
+    }
+  }
