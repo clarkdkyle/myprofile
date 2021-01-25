@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Contact</title>
-</head>
-<body>
+
+    <link />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a>Recommend a game</a>
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="gallery.html">Gallery</a>
+    </nav>
+    <br />
+    <main>
+        <article class="concact-form">
+            <form
+              action="mailto:clarkdkyle@gmail.com"
+              method="post"
+              enctype="multipart/form-data"
+            >
+              Name:
+              <br />
+              <input type="text" id="name" placeholder="your name" /><br />
+              <br />
+              Email:
+              <br />
+              <input
+                type="email"
+                id="email"
+                placeholder="yourname@email.com"
+              /><br />
+              <br />
+              Message:
+              <br />
+              <textarea
+                rows="7"
+                cols="60"
+                placeholder="Leave a game recommendation."
+              ></textarea
+              ><br />
+              <br />
+              <br />
+              <input type="submit" value="Send" />
+            </form>
+        </article>
     
-</body>
+    
+    </main>
+
+
+
+
+    <footer class="footer">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        Copyright &copy; Kyle Clark 2021
+      </p>
+    </footer>
+  </body>
 </html>
