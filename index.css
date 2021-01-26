@@ -62,6 +62,17 @@ body {
 
   /* Main page */
 
+#about {
+    width: 60%;
+    font-size: 17px;
+    font-style: oblique;
+    margin-left: 400px;
+    border-width: 7px;
+    border-style: ridge ;
+    border-color: #3070b9e8;
+    padding: 10px
+
+}
 
 #horseboy {
     /* Positioning */
@@ -85,6 +96,7 @@ form {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    
 }
 
 
