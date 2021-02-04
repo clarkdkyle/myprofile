@@ -6,20 +6,6 @@ body {
     background-color:seashell;
 }
 
-/* Main page */
-
-
-#horseboy {
-    /* Positioning */
-    float: left;
-  
-    /* Box-model */
-    width: 300px;
-    height: 450px;
-    margin: 0 20px 10px 10px;
-  }
-  /* END AB
-
 /* Nav Bar */
 .nav-link{
     float: right;
@@ -73,22 +59,52 @@ body {
     border-radius: 10px;
   }
   /* END FOOTER */
-  
-form {
-    background-color: lightgrey;
-    width: 700px;
+
+  /* Main page */
+
+#about {
+    width: 60%;
+    font-size: 17px;
+    font-style: oblique;
+    margin-left: 400px;
     border-width: 7px;
     border-style: ridge ;
     border-color: #3070b9e8;
-    padding: 50px;
+    padding: 10px
+
+}
+
+#horseboy {
+    /* Positioning */
+    float: left;
+  
+    /* Box-model */
+    width: 300px;
+    height: 450px;
+    margin: 0 20px 10px 10px;
+  }
+  /* END Main Page
+  
+/* Contact Page
+ */  
+form {
+    background-color: lightgrey;
+    width: 500px;
+    border-width: 7px;
+    border-style: ridge ;
+    border-color: #3070b9e8;
+    padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    
 }
 
 
 .contact-form {
     display: inline;
 }
+
+/* End Contact Page */
 
 /* Gallery */
   
@@ -128,3 +144,5 @@ form {
       width: 100%;
     }
   }
+/* 
+  End Gallery */
